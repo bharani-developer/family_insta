@@ -1,0 +1,32 @@
+body{
+    background-color: #FAFAFA;
+    font-size: 16px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+main{
+    animation: .7s popIn linear;
+}
+
+@keyframes popIn{
+    from{
+        transform: translateY(12px);
+        opacity: 0;
+    }
+    to{
+        transform: none;
+        opacity: 1;
+    }
+}
+
+a{
+    text-decoration: none;
+}
+
+input:focus{
+    outline: none;
+}
+
+.u-fat-text{
+    font-weight: 600;
+}
